@@ -43,9 +43,6 @@ This notebook implements LLaMA-style transformers with the following enhancement
 - Standard transformers often use **ReLU** or **GELU** in feed-forward networks.  
 - LLaMA uses **SwiGLU**, a gated linear unit with a swish nonlinearity:  
 
-  \[
-  \text{SwiGLU}(x) = (xW_1) \odot \sigma(xW_2)
-  \]
 
 - ✅ Benefits:
   - Improves model expressiveness.  
